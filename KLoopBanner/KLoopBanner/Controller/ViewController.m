@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     /**
-     图片数组
+     图片数组，可以自己拼接，也可以放在plist里面
      */
     NSArray *imageArray = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Images.plist" ofType:nil]];
     /**
