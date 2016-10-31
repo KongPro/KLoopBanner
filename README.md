@@ -11,6 +11,6 @@
      KBannerViewFollow *bannerFollowView = [KBannerViewFollow loopViewTypeFollowWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) images:imageArray];
      说明类方法创建bannerView：
      入参：
-     1.frame：banner的k宽高坐标
-     2.images：是一个图片数组，数组中每一项是图片的名字。（后期会更新成url，从网络下载）。 
+      1.frame：banner的宽高坐标
+      2.images：是一个图片数组，数组中每一项是图片的名字。（后期会更新成url，从网络下载）。 
  
